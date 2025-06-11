@@ -8,3 +8,8 @@ This project is a basic boilerplate backend for user authentication built with T
 - Logout
 
 This backend serves as a starting point for applications requiring secure user authentication and account management.
+
+# Setup Steps
+- Clone the repository
+- run --> npm install
+- run --> npm run dev 
