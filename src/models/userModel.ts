@@ -13,8 +13,7 @@ const userSchema = new Schema({
     password: {
         type: String,
         required: true,
-        minlength: 6,
-        select: false, // Exclude password from queries by default
+        minlength: 6,// Exclude password from queries by default
         maxlength: 128,
         trim:true
     },
